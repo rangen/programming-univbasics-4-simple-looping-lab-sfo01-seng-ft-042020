@@ -20,6 +20,7 @@ def return_string_array(arr)
       new_arr << arr[count].to_s
       count += 1
     end
+    new_arr
 end
 
 def output_array(arr)
